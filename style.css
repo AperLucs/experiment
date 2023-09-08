@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+header{
+    color:wheat;
+    background-color: black;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+}
+main{
+    height: 90vh;
+}
+.container{
+    display: flex;
+    height:100%;
+}
+.container .menu{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: wheat;
+}
+.container .cont{
+    width: 70%;
+    background-color: grey;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont button{
+    border-radius: 5px;
+    height:100px;
+    width: 200px;
+}
+footer{
+    display: flex;
+}
